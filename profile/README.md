@@ -1,4 +1,4 @@
-# Tradcast: Farcaster-Native Trading Miniapp
+# Tradcast: Farcaster-Native Trading simulation Miniapp
 
 Welcome to Tradcast, a Farcaster-native trading miniapp built to simulate real high-volatility markets — without risking real money.
 Turn your free time into real trading experience, backed by a robust, scalable, and event-driven architecture.
