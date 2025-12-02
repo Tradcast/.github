@@ -1,12 +1,46 @@
-## Hi there 👋
+# Tradcast: Farcaster-Native Trading Miniapp
 
-<!--
+Welcome to Tradcast, a Farcaster-native trading miniapp built to simulate real high-volatility markets — without risking real money.
+Turn your free time into real trading experience, backed by a robust, scalable, and event-driven architecture.
 
-**Here are some ideas to get you started:**
+### 🚀 Features
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+- Live Volatile Market Prices: Simulate real market conditions using real-time feeds.
+- Zero-Risk Training: Practice trading with no financial loss.
+- Farcaster Miniapp UX: Seamless interaction directly inside Farcaster clients.
+- Gamified System: Stats, history, streaks, achievements.
+- Microservices Architecture: Fast, scalable, fault-tolerant.
+
+### 🧱 Tech Stack
+
+##### Miniapp & Frontend
+
+- Farcaster Miniapp Framework
+- Next.js 14 (App Router)
+- TypeScript
+- Lightweight-Charts (Trading UI)
+- TailwindCSS
+
+##### Backend & Services
+
+- FastAPI (main backend service)
+- Python with async workers
+- Node.js for supporting services
+
+##### Data & Messaging
+
+- Firestore (primary database)
+- Redis (caching + rate limiting)
+- RabbitMQ (message broker for trade events)
+- MongoDB (historical logs / analytics pipelines)
+
+##### Infrastructure
+
+- Docker / Docker Compose
+- Load Balancer (Nginx)
+- Scalable Microservice Clusters
+- Monitoring & Logging stacks
+
+##### Smart Contracts 
+- Hardhat
+- EVM-compatible test networks
