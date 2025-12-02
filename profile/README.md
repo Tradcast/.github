@@ -3,9 +3,11 @@
 Welcome to Tradcast, a Farcaster-native trading miniapp built to simulate real high-volatility markets — without risking real money.
 Turn your free time into real trading experience, backed by a robust, scalable, and event-driven architecture.
 
----
+
 
 ### 🚀 Features
+
+---
 
 - Live Volatile Market Prices: Simulate real market conditions using real-time feeds.
 - Zero-Risk Training: Practice trading with no financial loss.
@@ -13,9 +15,10 @@ Turn your free time into real trading experience, backed by a robust, scalable, 
 - Gamified System: Stats, history, streaks, achievements.
 - Microservices Architecture: Fast, scalable, fault-tolerant.
 
---- 
 
 ### 🧱 Tech Stack
+
+--- 
 
 ##### Miniapp & Frontend
 
